@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/arno/.gradle/caches/modules-2/files-2.1/ch.acra/acra/4.5.0/44a5eb946e0d83eed4a0128d877ca1fd8168b83a/acra-4.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/arno/git/android-tutorials/android/sayhello/decl/app/build/intermediates/pre-dexed/debug/acra-4.5.0-59e9febbc8dba14b73a624d2a846d5c85b6bbf6d.jar" />
+    </item>
+
+</items>

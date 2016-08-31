@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/arno/git/android-tutorials/android/sayhello/decl/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_str">Say Hello</string>
+</resources>

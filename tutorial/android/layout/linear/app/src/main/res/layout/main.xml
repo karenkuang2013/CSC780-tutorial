@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- 
+Layout resource to be used when the device is in portrait orientation.
+It uses a LinearLayout on top-level of the view hierarchy with three nested
+LinearLayouts to achieve the portrait orientation of the six buttons.
+The XML-attributes specify layout parameters for the respective widget.
+Note that the layout parameters must match the enclosing container. In
+this particular example the buttons are embedded in a LinearLayout,
+therefore all the layout parameters mentioned in the <Button> tag
+must match to the capabilities as defined by the LinearLayout. The
+layout parameters supported by a LinearLayout are defined here:
+http://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_margin="20dp"
+		android:layout_weight="0.33">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="fill_parent"	android:layout_weight="0.5"
+			android:layout_marginEnd="10dp" android:text="@string/num_1"/>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="fill_parent"	android:layout_weight="0.5"
+			android:layout_marginStart="10dp" android:text="@string/num_2"/>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_margin="20dp"
+		android:layout_weight="0.33">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="fill_parent"	android:layout_weight="0.5"
+			android:layout_marginEnd="10dp" android:text="@string/num_3"/>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="fill_parent"	android:layout_weight="0.5"
+			android:layout_marginStart="10dp" android:text="@string/num_4"/>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_margin="20dp"
+		android:layout_weight="0.33">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="fill_parent"	android:layout_weight="0.5"
+			android:layout_marginEnd="10dp" android:text="@string/num_5"/>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="fill_parent"	android:layout_weight="0.5"
+			android:layout_marginStart="10dp" android:text="@string/num_6"/>
+	</LinearLayout>
+</LinearLayout>

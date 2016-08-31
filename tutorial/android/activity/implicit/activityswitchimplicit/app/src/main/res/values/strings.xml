@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivitySwitchImplicit</string>
+    <string name="finish_red">Finish red...</string>
+    <string name="finish_yellow">Finish yellow...</string>
+    <string name="change_color">Change color</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_blue_bright">
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Immersive Mode" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Show System UI"
+        android:onClick="showSystemUI"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hide System UI"
+        android:onClick="hideSystemUI"/>
+</LinearLayout>
+<!-- From: file:/Users/arno/git/android-tutorials/android/immersive/app/src/main/res/layout/main.xml -->
